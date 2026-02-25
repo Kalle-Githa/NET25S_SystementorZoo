@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark py-2">
+        <div class="container-fluid">
+            <!-- Hamburgar-knapp (syns bara under lg) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-5 fs-5">
+                    <li class="nav-item"><a class="nav-link" href="#">Hem</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#futures">Att Göra</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#subscribe">Prenumerera</a>
+                    </li>
+                </ul>
+            </div>
+
+            <a class="navbar-brand position-absolute top-50 start-50 translate-middle" href="#">
+                <img class="navbarLoggo" src="images/Systementor_Zoo_logga.png" alt="loggo" />
+            </a>
+        </div>
+    </nav>
+
+    <div class="hero-section container-fluid py-5 mb-4 d-flex justify-content-center">
+        <div class="p-5 mb-4 col-xxl-7 col-lg-8 col-12 hero-section-blur">
+            <div>
+                <div>
+                    <h1 class="fw-bolder display-4">Välkommen till Systementor Zoo</h1>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div>
+                    <p class="lead">
+                        Upptäck en värld av fascinerande djur, spännande aktiviteter och
+                        upplevelser för hela familjen. På Systementor Zoo kan du komma
+                        nära naturen, lära dig mer om våra djur och njuta av en dag fylld
+                        med lek, äventyr och kunskap.
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <a class="btn btn-dark" href="#ourAnimals" role="button">Våra djur</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-4 rounded shadow">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div>
+                    <h1 class="display-4 mb-5" id="futures">
+                        <b>Att Göra i parken</b>
+                    </h1>
+                    <p class="">
+                        På Systementor Zoo finns något för alla! Låt barnen leka och
+                        upptäcka våra roliga lekparker, njut av god mat i våra
+                        restauranger och ta del av mötet med alla våra fantastiska djur.
+                        Här kombineras äventyr, lärande och avkoppling i en upplevelse för
+                        hela familjen.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="row">
+            <div class="col-md-4 text-center p-3 rounded shadow">
+                <img class="img-fluid zoo-feature-img" alt="" src="images/Djur.jpg" />
+                <h2 class="my-3">Alla våra fantastiska djur</h2>
+                <p>
+                    Hos oss får du möta djur från hela världen – från lekfulla och
+                    nyfikna till stora och imponerande. Lär dig mer om deras liv, deras
+                    miljöer och hur vi arbetar för att ta hand om och bevara dem för
+                    framtiden. Varje möte är en upplevelse att minnas.
+                </p>
+            </div>
+            <div class="col-md-4 text-center p-3 rounded shadow">
+                <img alt="" class="img-fluid zoo-feature-img" src="images/Lekpark.jpg" />
+                <h2 class="my-3">Lekparker</h2>
+                <p>
+                    Våra lekparker är fyllda med äventyr och rörelseglädje för barn i
+                    alla åldrar. Här kan barnen klättra, gunga, balansera och utforska i
+                    en trygg och inspirerande miljö medan de vuxna kopplar av i
+                    närheten. Perfekt paus mellan djurupplevelserna!
+                </p>
+            </div>
+
+            <div class="col-md-4 text-center p-3 rounded shadow">
+                <img class="img-fluid zoo-feature-img" alt="" src="images/Restaurang.jpg" />
+                <h2 class="my-3">Restauranger</h2>
+                <p>
+                    I våra restauranger hittar du något för alla smaker. Njut av en god
+                    lunch, ta en fika i solen eller fyll på med energi mellan
+                    upplevelserna. Vi erbjuder både barnvänliga alternativ och rätter
+                    för den som vill unna sig något extra. Vi har dom godaste burgarna i
+                    regionen!
+                </p>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <div class="container py-3 mb-4 rounded shadow">
+        <h1 class="text-center display-3 mb-4" id="ourAnimals">
+            <b>Våra djur</b>
+        </h1>
+
+        <div class="row">
+            <!-- KATT -->
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="ock animal-card rounded shadow h-100">
+                    <img src="images/cat.png" alt="Katt" class="card-img-top zoo-img" />
+
+                    <div class="ock p-4">
+                        <h2>Katter</h2>
+                        <p>
+                            Träffa våra nyfikna katter – alltid redo för en liten
+                            upptäcktsrunda.
+                        </p>
+
+                        <div class="table-responsive">
+                            <table class="text-center table table-sm align-middle mb-0 animal-mini-table">
+                                <tr>
+                                    <th>Namn</th>
+                                    <th>Art</th>
+                                    <th>Vikt</th>
+                                    <th>Wiki</th>
+                                </tr>
+
+                                <tr>
+                                    <td>Kisse</td>
+                                    <td>
+                                        <img src="images/KattBild.jpg" class="animal-table-img" />
+                                    </td>
+                                    <td>6 kg</td>
+                                    <td>
+                                        <a href="https://sv.wikipedia.org/wiki/Katt" target="_blank">Wiki</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Misse</td>
+                                    <td>
+                                        <img src="images/KattBild2.jpg" class="animal-table-img" />
+                                    </td>
+                                    <td>3 kg</td>
+                                    <td>
+                                        <a href="https://sv.wikipedia.org/wiki/Katt" target="_blank">Wiki</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Nisse</td>
+                                    <td>
+                                        <img src="images/KattBild3.jpg" class="animal-table-img" />
+                                    </td>
+                                    <td>4 kg</td>
+                                    <td>
+                                        <a href="https://sv.wikipedia.org/wiki/Katt" target="_blank">Wiki</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HUND -->
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="ock animal-card rounded shadow h-100">
+                    <img src="images/dogLogo.png" alt="Hund" class="card-img-top zoo-img" />
+
+                    <div class="ock p-4">
+                        <h2>Hundar</h2>
+                        <p>
+                            Våra hundar älskar sällskap och är ofta parkens mest sociala
+                            kompisar.
+                        </p>
+
+                        <div class="table-responsive">
+                            <table class="table table-sm align-middle mb-0 animal-mini-table">
+                                <tr>
+                                    <th>Namn</th>
+                                    <th>Art</th>
+                                    <th>Vikt</th>
+                                    <th>Wiki</th>
+                                </tr>
+
+                                <tr>
+                                    <td>Vowe</td>
+                                    <td>
+                                        <img src="images/hund1.jpg" class="animal-table-img" />
+                                    </td>
+                                    <td>44 kg</td>
+                                    <td>
+                                        <a href="https://en.wikipedia.org/wiki/Dog" target="_blank">Wiki</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Max</td>
+                                    <td>
+                                        <img src="images/hund2.jpg" class="animal-table-img" />
+                                    </td>
+                                    <td>36 kg</td>
+                                    <td>
+                                        <a href="https://en.wikipedia.org/wiki/Dog" target="_blank">Wiki</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Rocky</td>
+                                    <td>
+                                        <img src="images/hund3.jpg" class="animal-table-img" />
+                                    </td>
+                                    <td>53 kg</td>
+                                    <td>
+                                        <a href="https://en.wikipedia.org/wiki/Dog" target="_blank">Wiki</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HÖNS -->
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="animal-card rounded shadow h-100">
+                    <img src="images/chicken.png" alt="Höna" class="card-img-top zoo-img" />
+
+                    <div class="p-4">
+                        <h2>Höns</h2>
+                        <p>
+                            Kom nära våra höns och lär dig mer om hur de lever och
+                            kommunicerar.
+                        </p>
+
+                        <div class="table-responsive">
+                            <table class="table table-sm align-middle mb-0 animal-mini-table">
+                                <tr>
+                                    <th>Namn</th>
+                                    <th>Art</th>
+                                    <th>Vikt</th>
+                                    <th>Wiki</th>
+                                </tr>
+
+                                <tr>
+                                    <td>Anika</td>
+                                    <td>
+                                        <img src="images/chicken3.jpg" class="animal-table-img" />
+                                    </td>
+                                    <td>3 kg</td>
+                                    <td>
+                                        <a href="https://en.wikipedia.org/wiki/Chicken" target="_blank">Wiki</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Liz</td>
+                                    <td>
+                                        <img src="images/chicken1.jpg" class="animal-table-img" />
+                                    </td>
+                                    <td>4 kg</td>
+                                    <td>
+                                        <a href="https://en.wikipedia.org/wiki/Chicken" target="_blank">Wiki</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Kalle</td>
+                                    <td>
+                                        <img src="images/chicken2.jpg" class="animal-table-img" />
+                                    </td>
+                                    <td>5 kg</td>
+                                    <td>
+                                        <a href="https://en.wikipedia.org/wiki/Chicken" target="_blank">Wiki</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PAPEGOJA -->
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="animal-card rounded shadow h-100">
+                    <img src="images/parrot.png" alt="Papegoja" class="card-img-top zoo-img" />
+
+                    <div class="p-4">
+                        <h2>Papegojor</h2>
+                        <p>Färgstarka och smarta – våra papegojor bjuder ofta på show!</p>
+
+                        <div class="table-responsive">
+                            <table class="table table-sm align-middle mb-0 animal-mini-table">
+                                <tr>
+                                    <th>Namn</th>
+                                    <th>Art</th>
+                                    <th>Vikt</th>
+                                    <th>Wiki</th>
+                                </tr>
+
+                                <tr>
+                                    <td>Ruth</td>
+                                    <td>
+                                        <img src="images/parrot1.jpg" class="animal-table-img" />
+                                    </td>
+                                    <td>90 g</td>
+                                    <td>
+                                        <a href="https://en.wikipedia.org/wiki/Parrot" target="_blank">Wiki</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Nicklas</td>
+                                    <td>
+                                        <img src="images/parrot2.jpg" class="animal-table-img" />
+                                    </td>
+                                    <td>320 g</td>
+                                    <td>
+                                        <a href="https://en.wikipedia.org/wiki/Parrot" target="_blank">Wiki</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Berra</td>
+                                    <td>
+                                        <img src="images/parrot3.jpg" class="animal-table-img" />
+                                    </td>
+                                    <td>490 g</td>
+                                    <td>
+                                        <a href="https://en.wikipedia.org/wiki/Parrot" target="_blank">Wiki</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-md-6 py-5 rounded shadow">
+                <div class="p-5">
+                    <h2>
+                        Prenumerera på vår nyhetsbrev och få 10% rabbat på din första
+                        besök.
+                    </h2>
+                    <p>
+                        Håll dig uppdaterad med våra senaste nyheter och uppdateringar
+                    </p>
+                    <form action="https://formshow.systementor.se/" method="post" id="subscribe">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" name="firstname" placeholder="Förnamn"
+                                    required />
+                            </div>
+
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" name="lastname" placeholder="Efternamn"
+                                    required />
+                            </div>
+
+                            <div class="col-12">
+                                <input type="email" class="form-control" name="email" placeholder="Email address"
+                                    required />
+                            </div>
+
+                            <div class="col-12">
+                                <input type="number" class="form-control" name="age" placeholder="Ålder" required />
+                            </div>
+
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary w-100">
+                                    Prenumerera
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-md-6 py-5 rounded shadow">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 offset-md-1">
+                            <div class="ms-md-2 ms-lg-5 pt-5">
+                                <h2 class="">Om Systementor Zoo</h2>
+                                <p>
+                                    Systementor Zoo är en plats där djur, natur och
+                                    familjeupplevelser möts i en trygg och inspirerande miljö.
+                                </p>
+                                <p>
+                                    Här får du komma nära våra djur, lära dig något nytt och
+                                    skapa minnen tillsammans med dem du tycker om.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="ms-md-2 ms-lg-5">
+                                <img class="img-fluid" src="/images/Systementor_Zoo_logga.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-white text-center text-lg-start bg-dark">
+        <div class="container p-3">
+            <div class="row mt-4 align-items-stretch">
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Öppet tider:</h5>
+
+                    <table class="table table-dark text-center">
+                        <tbody>
+                            <tr>
+                                <td>Mån - Tor:</td>
+                                <td>08:00 - 18:00</td>
+                            </tr>
+                            <tr>
+                                <td>Fre - Lör:</td>
+                                <td>09:00 - 20:00</td>
+                            </tr>
+                            <tr>
+                                <td>Söndag:</td>
+                                <td>09:00 - 18:00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="container p-4">
+                        <!-- Facebook -->
+                        <a class="btn btn-primary m-1 facebook-logo" href="https://www.facebook.com/JFPEggeby"
+                            role="button"><i class="fab fa-facebook-f"></i></a>
+
+                        <!-- Twitter -->
+                        <a class="btn btn-primary m-1 twitter-logo" href="#!" role="button"><i
+                                class="fab fa-twitter"></i></a>
+
+                        <!-- Google -->
+                        <a class="btn btn-primary m-1 google-logo" href="#!" role="button"><i
+                                class="fab fa-google"></i></a>
+
+                        <!-- Instagram -->
+                        <a class="btn btn-primary m-1 instagram-logo" href="https://www.instagram.com/eggebygard/"
+                            role="button"><i class="fab fa-instagram"></i></a>
+
+                        <!-- Linkedin -->
+                        <a class="btn btn-primary m-1 linkedin-logo" href="#!" role="button"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <ul class="fa-ul" style="margin-left: 1.65em">
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Eggeby gård 1, 163
+                                62, Spånga</span>
+                        </li>
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-envelope"></i></span><span
+                                class="ms-2">systementorzoo@info.se</span>
+                        </li>
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 46 (0)73 990 19
+                                00 </span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <iframe class="w-100 h-100 rounded"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2065.446274956685!2d17.91701277694849!3d59.39860720547366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9ef9aa1fd0df%3A0x87d79f3d86590bb0!2sEggeby%20G%C3%A5rd!5e1!3m2!1ssv!2sse!4v1771683995133!5m2!1ssv!2sse"
+                        style="border: 0" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center p-3">
+            © 2020 Copyright:
+            <a class="text-white" href="https://www.eggeby.se/">SystementorZoo.se</a>
+        </div>
+    </footer>
+</body>
+
+</html>
